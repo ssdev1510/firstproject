@@ -1,9 +1,9 @@
 ### How to Run test cases through terminal:
 
 1.	After successful Maven build, Copy the war file from the target folder in project location and put that file in the webapps folder of local apache tomcat server. <br/>
-![Run]( /testRun.png )
+![Run]( image/serverStartup.png )
 2.	Start the server through terminal- Go to apache tomcat “bin” folder location and run command “startup”.
-![Test]( /testRun.png )
+![Test]( image/testRun.png )
 3.	After server is start – hit the localhost URL to check if everything works fine.
 http://localhost:8080/srv-0.1.0-SNAPSHOT/odata/v2/com.sap.caps.ipa2.MeasurementService/User
 4.	Start the tests – Go to testodatav2 project location where POM file is present and run command mvn test.
@@ -29,7 +29,7 @@ https://www.sap.com/india/developer/tutorials/hcp-java-eclipse-setup.html
 3.	**Issues** I face while working on eclipse: I was still getting 404 error error on hitting the localhost URL after sever start.
 Issue get resolved by below steps – 
 - First step, Right click on server and click on property- Click on Switch location and change to same as mentioned below : 
-![First Step]( /testRun.png )
+![First Step]( image/ecpliseIssue1.png )
 - Then Second step, double click on server and in server location change the radio box to Use Tomcat installation – which create a wtswebapps folder in the server location where project get deployed.
-![Second Step]( /testRun.png )
+![Second Step]( image/ecpliseIssue2.png )
 
