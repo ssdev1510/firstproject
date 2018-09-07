@@ -2,18 +2,18 @@
 
 1.	After successful Maven build, Copy the war file from the target folder in project location and put that file in the webapps folder of local apache tomcat server.
 2.	Start the server through terminal- Go to apache tomcat “bin” folder location and run command “startup”.
-3.	3.	After server is start – hit the localhost URL to check if everything works fine.
+3.	After server is start – hit the localhost URL to check if everything works fine.
 http://localhost:8080/srv-0.1.0-SNAPSHOT/odata/v2/com.sap.caps.ipa2.MeasurementService/User
 4.	Start the tests – Go to testodatav2 project location where POM file is present and run command mvn test.
 
 ### How to Run tests case through Eclipse:
-1.	There are two types of server – one is local tomcat server and other one is Neo java SDK server. Please refer below mentioned steps for details like how to install both type server in eclipse.
+1.	There are two types of server – one is local tomcat server and other one is Neo java SDK server. Please refer below Reference Detail for installing both type server in eclipse.
 2.	Follow all the steps present in link to start the server - https://github.wdf.sap.corp/SAPPERF/documentation/blob/master/HowToStart_Dev_Local_Eclipse.md
 3.	After server is up – hit the localhost URL to check if everything works fine.
 http://localhost:8080/srv-0.1.0-SNAPSHOT/odata/v2/com.sap.caps.ipa2.MeasurementService/User
 4.	Start the tests – Go the teste2e project and run the project in maven test.
 
-####Reference Document -
+#### Reference Document -
 1.	Servers:
 1.1 If you are using local tomcat server:
 a.	How to add the server in eclipse– Add the local tomcat server into the eclipse by using link “https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.stardust.docs.wst%2Fhtml%2Fwst-integration%2Fconfiguration.html. 
