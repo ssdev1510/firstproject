@@ -1,6 +1,7 @@
 ### How to Run test cases through terminal:
 
-1.	After successful Maven build, Copy the war file from the target folder in project location and put that file in the webapps folder of local apache tomcat server.⋅⋅ 
+1.	After successful Maven build, Copy the war file from the target folder in project location and put that file in the webapps folder of local apache tomcat server.
+
 ![Run]( /testRun.png )
 2.	Start the server through terminal- Go to apache tomcat “bin” folder location and run command “startup”.
 ![Test]( /testRun.png )
