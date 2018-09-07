@@ -30,4 +30,4 @@ Issue get resolved by below steps –
 
 - Then Second step, double click on server and in server location change the radio box to Use Tomcat installation – which create a wtswebapps folder in the server location where project get deployed.
 
-
+ ![TestRun Image][firstproject/testRun.png] 
